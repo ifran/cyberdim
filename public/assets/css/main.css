@@ -1,0 +1,219 @@
+/*PRECISA*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.bgBlack {
+    background-color: rgb(157, 175, 255);
+}
+
+#menu {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.pulseImg {
+    animation: pulse 0.8s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+  
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(120%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+    100% {
+        transform: scale(1.01);
+        filter: brightness(150%);
+    }
+}
+
+.mainDiv {
+    width: 60%;
+    border: solid;
+    margin: 0 auto;
+}
+
+.rankingDiv {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.mainDivFacil {
+    width: 315px;
+    border: solid;
+    margin: 0 auto;
+}
+
+.mainDivMedio {
+    width: 700px;
+    border: solid;
+    margin: 0 auto;
+}
+
+.mainDivDificil {
+    border: solid;
+    margin: 0 auto;
+}
+
+.face-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    perspective: 10000px;
+    float: left;
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card__face--back {
+    background-color: var(--light);
+    transform: rotateY(180deg);
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.progressbar {
+    width: 80%;
+    margin: 25px auto;
+    border: solid 1px #000;
+}
+
+.progressbar .inner {
+    height: 15px;
+    animation: progressbar-countdown;
+    animation-duration: 40s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+}
+
+@keyframes progressbar-countdown {
+    0% {
+        width: 100%;
+        background: rgb(4, 103, 216);
+    }
+    100% {
+        width: 0%;
+        background: #F00;
+    }
+}
+
+.imgOption {
+    filter: grayscale(100%);
+    width: 30%;
+}
+
+.imgOptionNivel {
+    filter: grayscale(100%);
+    width: 60%;
+}
+
+.progressbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.oCartas {
+    margin-top: 0px;    
+}
+
+.login {
+    color: rgb(255, 255, 255);
+}
+
+.login:hover {
+    color: rgb(235, 4, 4);
+}
+
+.bgMenu {
+    background-color: rgba(25, 0, 255, 0.619);
+    margin: 10px;
+}
+
+.bgMenu:hover {
+    background-color: rgba(51, 34, 0, 0.963);
+    margin: 10px;
+}
+
+.tabela {
+    color: black;
+    margin: 40% auto;
+}
+
+.coluna {
+    padding: 10px;
+}
+
+.imagem {
+    width: 70px;
+    height: 90px;
+}
+
+.aba {
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
