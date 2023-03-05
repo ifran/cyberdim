@@ -32,37 +32,37 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 
                 <li class="nav-item">
-                    <a href="<?=HOST_PUBLIC?>Operadora" class="nav-link">
+                    <a href="<?=HOST_PUBLIC?>Material" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                            Operadoras
+                            Material
                         </p>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="<?=HOST_PUBLIC?>Cartao" class="nav-link">
+                    <a href="<?=HOST_PUBLIC?>Produto" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                            Cart&otilde;es
+                            Produto
                         </p>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="<?=HOST_PUBLIC?>Funcionario" class="nav-link">
+                    <a href="<?=HOST_PUBLIC?>Clientes" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                            Funcion&aacute;rio
+                            Clientes 
                         </p>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="<?=HOST_PUBLIC?>Blog" class="nav-link">
+                    <a href="<?=HOST_PUBLIC?>Vendas" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                            Blog
+                            Vendas 
                         </p>
                     </a>
                 </li>

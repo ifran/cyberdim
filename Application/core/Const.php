@@ -3,7 +3,7 @@
     DEFINE('DB_SGBD'     , 'mysql'); 
     
     DEFINE('DB_HOST'     , 'localhost'); 
-    DEFINE('DB_NAME'     , 'vtsolucoes');
+    DEFINE('DB_NAME'     , 'cyberdim');
     DEFINE('DB_USER'     , 'root');
     DEFINE('DB_PASSWORD' , '');
     

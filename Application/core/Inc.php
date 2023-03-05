@@ -1,5 +1,5 @@
 <?php session_start();
-    DEFINE('PROJECT_NAME', 'testeVtSolucoes');
+    DEFINE('PROJECT_NAME', 'cyberdim');
     include($_SERVER['DOCUMENT_ROOT'] . '/' . PROJECT_NAME . '/Application/core/Const.php');
     
     // No local atual da pasta

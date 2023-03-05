@@ -7,13 +7,5 @@ ReWriteRule ^$ index.php?sPage=Home [NC]
 
 ReWriteRule ^Home$ index.php?sPage=Home [NC]
 
-ReWriteRule ^Funcionario$ index.php?sPage=Funcionario [NC]
-ReWriteRule ^FuncionarioForm/(.*)$ index.php?sPage=FuncionarioForm&iFuncionarioId=$1
-
-ReWriteRule ^Cartao$ index.php?sPage=Cartao [NC]
-ReWriteRule ^CartaoForm/(.*)$ index.php?sPage=CartaoForm&iCartaoId=$1
-
-ReWriteRule ^Operadora$ index.php?sPage=Operadora [NC]
-ReWriteRule ^OperadoraForm/(.*)$ index.php?sPage=OperadoraForm&iOperadoraId=$1
-
-ReWriteRule ^Blog$ index.php?sPage=Blog [NC]
+ReWriteRule ^Material$ index.php?sPage=Material [NC]
+ReWriteRule ^MaterialForm/(.*)$ index.php?sPage=MaterialForm&iId=$1
