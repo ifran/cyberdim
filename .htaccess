@@ -9,3 +9,5 @@ ReWriteRule ^Home$ index.php?sPage=Home [NC]
 
 ReWriteRule ^Material$ index.php?sPage=Material [NC]
 ReWriteRule ^MaterialForm/(.*)$ index.php?sPage=MaterialForm&iId=$1
+
+ReWriteRule ^Venda$ index.php?sPage=Venda [NC]

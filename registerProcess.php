@@ -19,7 +19,7 @@
                                     , material_valor
                 )
                 VALUES 
-                (    
+                (
                     "' . $_POST['sMaterialNome'] . '"
                     , "' . $_POST['sMaterialAltura'] . '"
                     , "' . $_POST['sMaterialLargura'] . '"

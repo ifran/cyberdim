@@ -59,10 +59,10 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="<?=HOST_PUBLIC?>Vendas" class="nav-link">
+                    <a href="<?=HOST_PUBLIC?>Venda" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                            Vendas 
+                            Venda
                         </p>
                     </a>
                 </li>
