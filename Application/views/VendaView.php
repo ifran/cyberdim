@@ -3,6 +3,8 @@
 
     $aMaterial = $oCon->select('SELECT * FROM material');
     $sOption = '<option value="">-- Selecione --</option>';
+    $sInputHid = '';
+    $sBtnSubmit = 'Concluir Venda';
     foreach ($aMaterial as $oItem)
     {
         $sOption .= '<option value="' . $oItem['material_id'] . '">' . $oItem['material_nome'] . '</option>';
@@ -11,7 +13,6 @@
 
 <section class="content">
     <div class="container-fluid">
-        
 		<!-- MOSTRANDO ESTOQUE ATUAL -->
 		<div class="card card-default">
             <div class="card-body ">
@@ -19,7 +20,6 @@
                     <div class="col-md-12">
                         <form method="post" action="<?=HOST_PUBLIC?>registerProcess.php">
                             <div class="card card-primary">
-                            
                                 <div class="card-body">
                                     <!-- Campos -->
                                     <div class="form-group">
@@ -34,14 +34,13 @@
                                     <?=$sInputHid?>
                                     <button class="btn btn-primary" type="button" onclick="adicionarFuncionarioCartao();" >Adicionar Cartao</button>
                                 </div>
-
                             </div>
                             
                             <!-- CARD DOS DESCONTOS -->
                             <div class="card card-primary">
 
                                 <div class="card-body" id="oDivCartao">
-                                    <?=$sCartoes?>
+                                    
                                 </div>
 
                                 <input type="hidden" name="iCartaoCont" id="iCartaoCont" value="<?=$iCartaoCont?>">
